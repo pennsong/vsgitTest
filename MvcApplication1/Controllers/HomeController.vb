@@ -14,7 +14,7 @@
     End Function
 
     Function Contact() As ActionResult
-        ViewData("Message") = "你的联系方式页。"
+        ViewData("Message") = "你的联系方式页。dd"
 
         Return View()
     End Function
